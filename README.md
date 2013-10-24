@@ -28,10 +28,10 @@ Using jquery and some very basic javascripting, we replace the DOM with the pure
 To Do
 -----
 
-- [ ] Add additional stats it can pull
+- Add additional stats it can pull
 
-- [ ] Implement API for other sites, possible (serebii?)
+- Implement API for other sites, possible (serebii?)
 
-- [ ] Clean up UI (maybe checkboxes for selecting what information should be pulled)
+- Clean up UI (maybe checkboxes for selecting what information should be pulled)
 
-- [ ] Rewrite pokemon.cgi to separate the API calls and what type of stat it gets, or break the script apart
+- Rewrite pokemon.cgi to separate the API calls and what type of stat it gets, or break the script apart
