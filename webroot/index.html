@@ -714,6 +714,19 @@
 			});	
 		}
 	});
+        $(document).keypress(function(e) {
+    if(e.which == 13) {
+		$( "#tags" ).autocomplete("close");
+                $( "div.result" ).html("<p><b>Loading...</b></p>");
+                var selection = $('#tags').val();
+                $.get("http://qtosw.com/bin/pokemon.cgi?"+selection,function(html){
+                        $( "div.result" ).html(html);
+                        $("h3").html("");
+                        $("h4").html("");
+                        $("a").contents().unwrap();
+                        });
+    }
+});
   });
 </script>
 </head>
