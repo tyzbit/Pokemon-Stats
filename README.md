@@ -3,6 +3,8 @@ Pokemon-Stats
 
 A Web application that pulls Pokemon stats on-the-fly from Bulbapedia
 
+## This repository is archived and unsupported.  Code here is for historical and learning purposes.
+
 Requirements
 ------------
 
